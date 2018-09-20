@@ -68,7 +68,7 @@ footer nav ul li a:hover{
 .content-container{
     position: relative;
     width: 1020px;
-    padding: 20px;
+    padding: 20px 20px 50px;
     margin: 0 auto;
 }
 
@@ -76,4 +76,23 @@ footer nav ul li a:hover{
     list-style-type: none;
     margin: 0;
     padding: 0
+}
+
+.breadcrumb{
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+.breadcrumb ul li{
+    display:inline-block;
+    margin: 0 5px;
+}
+
+.breadcrumb ul li a{
+    color: rgba(3, 169, 244, 1);
+    text-decoration:none
+}
+
+.breadcrumb ul li a:hover{
+    text-decoration: underline
 }

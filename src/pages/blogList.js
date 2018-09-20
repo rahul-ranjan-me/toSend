@@ -41,7 +41,7 @@ export default class BlogList extends Component{
     }
 
     createBlogList(blog){
-        return <li key={ blog.id }><span className="title">{ blog.title }</span> <br /> <span className="time">{ moment('2018-09-19T07:20:47.473Z').format('MMMM Do YYYY, h:mm:ss a') }</span></li>
+        return <li key={ blog.id }><Link to={`/blog/${blog.id}`}><span className="title">{ blog.title }</span> <br /> <span className="time">{ moment(blog.time).format('MMMM Do YYYY, h:mm:ss a') }</span></Link></li>
     }
 
     deleteBlog(id){
@@ -70,7 +70,7 @@ export default class BlogList extends Component{
 
         return (
             <li key={blogId}>
-                <p><span className="title">{ blog.title }</span> <br /> <span className="time">{ moment('2018-09-19T07:20:47.473Z').format('MMMM Do YYYY, h:mm:ss a') }</span></p>
+                <p><span className="title">{ blog.title }</span> <br /> <span className="time">{ moment(blog.time).format('MMMM Do YYYY, h:mm:ss a') }</span></p>
                 <p>{ blog.text }</p>
                 <p className="action-link"><span className="edit-delete" onClick={() => this.deleteBlog(blogId) }>Delete Blog</span> | <Link className="edit-delete" to={ editBlogLink }>Edit Blog</Link></p>
             </li>
