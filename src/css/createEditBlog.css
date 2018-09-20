@@ -1,0 +1,67 @@
+.update-blog{
+    width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 0 10px #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.update-blog ul{
+    margin: 0;
+    padding: 0
+}
+
+.update-blog ul label{
+    font-weight:bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.update-blog ul input{
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 5px
+}
+
+.update-blog ul #text{
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    max-height: 200px;
+    overflow: auto;
+    min-height: 150px;
+    border-radius: 5px
+}
+
+.update-blog ul li{
+    padding: 10px;
+}
+
+.update-blog .action{
+    text-align: center
+}
+
+.update-blog button{
+    width: 200px;
+    background: rgba(3, 169, 244, 1);
+    text-decoration: none;
+    color: #fff;
+    font-size:14px;
+    text-align: center;
+    padding:10px;
+    display: inline-block;
+    margin-top: 10px;
+    cursor:pointer;
+    border:none
+}
+
+.update-blog .success{
+    color: rgba(76, 175, 80, 1);
+    font-weight: bold;
+    font-size: 14px;
+}

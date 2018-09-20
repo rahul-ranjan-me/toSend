@@ -1,0 +1,91 @@
+.blog-list{
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 220px;
+}
+
+.blog-list li{
+    margin-bottom: 5px;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.title{
+    font-size: 15px;
+    font-weight: bold;
+    display:block;
+}
+
+.time{
+    color: #ccc;
+    font-style:italic
+}
+
+.blog-list .create-new-post-button{
+    width: 200px;
+    background: rgba(0, 0, 0, .8);
+    text-decoration: none;
+    color: #fff;
+    font-size:14px;
+    text-align: center;
+    padding:15px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.blog-list .create-new-post-button:hover{
+    background: #ccc;
+    color: #000
+}
+
+.blog-detail{
+    margin-left: 240px;
+    margin-top: 30px;
+}
+
+.blog-detail li{
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+    margin-bottom: 20px;
+}
+
+.blog-detail li .time{
+    float: right
+}
+
+.blog-detail .edit-delete{
+    width: 200px;
+    background: rgba(206, 33, 33, .8);
+    text-decoration: none;
+    color: #fff;
+    font-size:14px;
+    text-align: center;
+    padding:10px;
+    display: inline-block;
+    margin-top: 10px;
+    cursor:pointer
+}
+
+.blog-detail .edit-delete:last-child{
+    background-color: rgba(3, 169, 244, 1)
+}
+
+.blog-detail .edit-delete:hover{
+    opacity: .8
+}
+
+.action-link{
+    text-align:right
+}
+
+.deleted{
+    color: rgba(206, 33, 33, .8);
+    font-size: 14px;
+}
+
+.deleted strong{
+    color: #000
+}
